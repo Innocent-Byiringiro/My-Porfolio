@@ -8,7 +8,7 @@ function Nav(){
                 <ul><li><Link to="/" className="link">Home</Link></li>
                     <li><Link to="./About.js" className="link">About Me</Link></li>
                     <li><Link to="./Blogs.js" className="link">Articles</Link></li>
-                    <li><Link to="" className="link">Admin</Link></li>
+                    <li><Link to="./Login.js" className="link">Admin</Link></li>
                     <li><Link to="./Projects.js" className="link">My Work</Link></li>
                 </ul>
             </p>

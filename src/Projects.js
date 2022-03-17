@@ -5,9 +5,9 @@ function Projects(props){
         <span>
             <noscript>Completed Projects</noscript>
             <div class="props-container">
-                <span class="props"><img src={props.img}></img></span>
-                <span class="props">{props.name}</span>
-                <span class="props">{props.link}</span>
+                <p class="props"><img src={props.img}></img></p>
+                <p class="props">{props.name}</p>
+                <p class="props">{props.link}</p>
 
             </div>
         </span>

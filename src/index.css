@@ -7,10 +7,14 @@
 body
   {
 
-    background-image: url(./Images/hope.jpg);
+    
+    background-image: 
+    linear-gradient(to bottom, rgba(2, 4, 15, 0.52), rgba(0, 0, 0, 0.73)),
+    url(./Images/hope.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+
   }
 
 /* nav styles */
@@ -101,13 +105,13 @@ a:active
 }
 .props-container{
   background-color: rgb(27, 3, 7);
-  position: relative;
+  
   top: 100px;
   /* margin-left: 250px;
   margin-right: 250px; */
-  margin: 10px auto;
-  width: 200px;
-  height: 100px;
+  margin: 50px auto;
+  width: 400px;
+  height: 300px;
   /* border-radius: 20px; */
 }
 /* footer styles */
@@ -133,7 +137,7 @@ a:active
 /* about component */
 
 .about-comp{
-  background-color: rgb(226, 220, 220);
+  background-color: rgb(223, 215, 215);
   width: 400px;
   height: 450px;
   position:relative;
@@ -161,4 +165,34 @@ a:active
   position: relative;
   left: 60px;
   margin: 10px;
+}
+
+/* login component */
+
+.container{
+  background-color: white;
+  width: 310px;
+  border-radius: 6px;
+  margin: auto;
+  padding-right: 40px;
+  position: relative;
+  top: 100px;
+}
+input{
+  width: 300px;
+  height: 30px;
+  box-shadow: 3px 3px 6px 4px rgb(190, 127, 127);
+}
+button{
+  position: relative;
+  top: 10px;
+  width: 300px;
+  background-color: rgb(75, 75, 235);
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+form{
+  padding: 30px;
 }
